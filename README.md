@@ -85,7 +85,7 @@ INF320-Automatizacion-Procesos-Negocios-2026-2/   (repo INDIVIDUAL en GitHub Cla
 
 **Nota mínima de aprobación: 71%**
 
-El proyecto integrador se califica dentro del rubro "Trabajo en Grupo" como asignación grupal. Ver detalle de pesos por checkpoint en `proyecto-integrador/README.md`.
+El proyecto integrador se califica dentro del rubro "Trabajo en Grupo" como asignación grupal. Ver detalle de pesos por checkpoint en `../INF320-Proyecto-Integrador-2026-2/README.md`.
 
 ---
 
@@ -100,7 +100,7 @@ El proyecto integrador corre todo el semestre y tiene **4 entregables evaluados*
 | Checkpoint 3: chatbot/asistente virtual básico | 12 | 25% |
 | Demo final: proyecto completo + presentación | 15 | 35% |
 
-Equipos de 4-5 integrantes. Elección de negocio (real o simulado) en la semana 3. Especificación completa en `proyecto-integrador/README.md`.
+Equipos de 4-5 integrantes. Elección de negocio (real o simulado) en la semana 3. Especificación completa en `../INF320-Proyecto-Integrador-2026-2/README.md`.
 
 ---
 

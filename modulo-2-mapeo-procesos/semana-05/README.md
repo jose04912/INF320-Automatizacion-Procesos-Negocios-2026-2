@@ -42,7 +42,7 @@
 - Análisis de oportunidades de automatización con la matriz de priorización
 - Oportunidad seleccionada y justificación
 
-**Peso**: 15% de la nota del proyecto integrador (ver `proyecto-integrador/README.md`)
+**Peso**: 15% de la nota del proyecto integrador (ver `../INF320-Proyecto-Integrador-2026-2/README.md`)
 
 ---
 
