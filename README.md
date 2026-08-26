@@ -8,7 +8,7 @@
 
 ## Bienvenida
 
-Este repositorio es tu espacio de trabajo personal y el de tu equipo para el semestre. Aquí guardarás todos tus laboratorios, avances del proyecto integrador, diagramas BPMN y documentación asociada. Las entregas se realizan mediante este repositorio en GitHub Classroom.
+Este repositorio es la **plantilla** del curso. En la semana 1, cada estudiante crea **su propia copia** con el botón "Use this template" de GitHub (instrucciones abajo, en "Herramientas del curso") y trabaja ahí todo el semestre: laboratorios, avances del proyecto integrador, diagramas BPMN y documentación asociada.
 
 > **Regla de oro**: ninguna entrega se acepta por correo electrónico. Todo va en este repositorio, organizado en la carpeta correcta, antes de la fecha límite.
 
@@ -17,13 +17,13 @@ Este repositorio es tu espacio de trabajo personal y el de tu equipo para el sem
 ## Estructura del repositorio
 
 ```
-INF320-Automatizacion-Procesos-Negocios-2026-2/   (repo INDIVIDUAL en GitHub Classroom)
+INF320-Automatizacion-Procesos-Negocios-2026-2/   (plantilla — 1 copia por estudiante, ver "Herramientas del curso")
 ├── syllabus/               → Syllabus oficial del curso (créditos, evaluación, bibliografía)
 ├── politicas/              → Reglas del aula, política de IA, integridad académica
 ├── recursos/               → Guía de herramientas (Zapier, Make, Bizagi…) y referencias
 ├── docker/                 → n8n autoalojado, opcional/avanzado
 ├── docente/                → Material de planificación del docente (syllabus fuente, plan de 15 semanas,
-│                              rúbricas, guion de clase semana a semana, guía de GitHub Classroom)
+│                              rúbricas, guion de clase semana a semana, guía de entregas por GitHub)
 ├── .github/workflows/      → Checklist automático de entregas (informativo)
 ├── modulo-1-introduccion-bpa/
 │   ├── semana-01/          → Presentación + panorama BPA 2026
@@ -48,7 +48,7 @@ INF320-Automatizacion-Procesos-Negocios-2026-2/   (repo INDIVIDUAL en GitHub Cla
 └── examenes/               → Guías de estudio para parciales y examen semestral
 ```
 
-> **El proyecto integrador vive en un repositorio aparte:** [`INF320-Proyecto-Integrador-2026-2`](../INF320-Proyecto-Integrador-2026-2/). GitHub Classroom no permite mezclar trabajo individual (este repo, uno por estudiante) con trabajo en equipo (el proyecto, un repo por equipo de 4-5) en una misma asignación — por eso son dos repos y dos invitaciones distintas. El de proyecto se activa en la semana 3, tras el kickoff.
+> **El proyecto integrador vive en un repositorio aparte:** [`INF320-Proyecto-Integrador-2026-2`](../INF320-Proyecto-Integrador-2026-2/) — trabajo individual (este repo, una copia por estudiante) y trabajo en equipo (el proyecto, una copia por equipo de 4-5) se mantienen separados a propósito. El equipo crea su copia del repo de proyecto en la semana 3, tras el kickoff. Ver `docente/GUIA-ENTREGAS-GITHUB.md` para el paso a paso.
 
 ---
 
@@ -134,9 +134,19 @@ Equipos de 4-5 integrantes. Elección de negocio (real o simulado) en la semana 
 | Chatbots | Voiceflow / Landbot / Dialogflow CX | Gratuito |
 | Marketing automation | HubSpot / Mailchimp | Gratuito |
 | Dashboards KPI | Looker Studio / Power BI | Gratuito |
-| Control de versiones | Git + GitHub Classroom | — |
+| Control de versiones | Git + GitHub | — |
 
 Guía de configuración de cuentas: [`recursos/herramientas-setup.md`](recursos/herramientas-setup.md)
+
+### Crea tu copia del repositorio
+
+No trabajes directamente sobre este repositorio — es la plantilla compartida. Crea tu propia copia:
+
+1. Entra a `https://github.com/avila-fiec-up/INF320-Automatizacion-Procesos-Negocios-2026-2`.
+2. Botón verde **"Use this template" → "Create a new repository"**.
+3. Owner: tu propia cuenta · Visibility: **Private**.
+4. En **Settings → Collaborators** de tu copia nueva, agrega al docente (`profangelavila671-spec`).
+5. Clona tu copia (no la plantilla del docente) y trabaja como siempre: `git clone`, `git add`, `git commit`, `git push`.
 
 **Alternativa opcional/avanzada:** si prefieres un n8n local sin límite de ejecuciones en vez del plan cloud gratuito, el repo incluye un stack Docker listo en [`docker/`](docker/) (n8n + PostgreSQL). No es obligatorio — ver [`docker/README.md`](docker/README.md).
 

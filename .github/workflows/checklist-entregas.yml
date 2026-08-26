@@ -1,4 +1,4 @@
-name: GitHub Classroom - Checklist de entregas
+name: Checklist de entregas
 
 # INF 320 es un curso no-code (BPMN, automatizaciones, chatbots) — no hay
 # código para correr pruebas unitarias como en INF 222. Este workflow no
@@ -14,7 +14,6 @@ on:
 jobs:
   checklist:
     runs-on: ubuntu-latest
-    if: github.actor != 'github-classroom[bot]'
     steps:
       - uses: actions/checkout@v4
 

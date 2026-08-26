@@ -10,7 +10,7 @@
 
 - Descarga Git desde git-scm.com
 - Crea cuenta en github.com (usa un nombre profesional)
-- Acepta la invitación de GitHub Classroom que el docente enviará por el aula virtual
+- Entra a `https://github.com/avila-fiec-up/INF320-Automatizacion-Procesos-Negocios-2026-2` y usa el botón verde **"Use this template" → "Create a new repository"** para crear tu propia copia privada. Luego, en **Settings → Collaborators**, agrega al docente (`profangelavila671-spec`).
 
 ```bash
 git config --global user.name "Tu Nombre"
@@ -137,7 +137,7 @@ Antes del tercer laboratorio, verifica que tienes acceso a:
 
 | Herramienta | ¿Cuenta creada? | ¿Login verificado? |
 |------------|----------------|-------------------|
-| GitHub Classroom | ☐ | ☐ |
+| Tu copia del repo en GitHub | ☐ | ☐ |
 | Bizagi o draw.io | ☐ | ☐ |
 | Zapier o Make | ☐ | ☐ |
 | Voiceflow o Landbot | ☐ | ☐ |
