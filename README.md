@@ -8,7 +8,10 @@
 
 ## Bienvenida
 
-Este repositorio es la **plantilla** del curso. En la semana 1, cada estudiante crea **su propia copia** con el botón "Use this template" de GitHub (instrucciones abajo, en "Herramientas del curso") y trabaja ahí todo el semestre: laboratorios, avances del proyecto integrador, diagramas BPMN y documentación asociada.
+Este repositorio es la **plantilla** del curso, privada. En la semana 1 el docente crea tu propia
+copia privada y te agrega como colaborador (instrucciones abajo, en "Herramientas del curso") — ahí
+trabajas todo el semestre: laboratorios, avances del proyecto integrador, diagramas BPMN y
+documentación asociada.
 
 > **Regla de oro**: ninguna entrega se acepta por correo electrónico. Todo va en este repositorio, organizado en la carpeta correcta, antes de la fecha límite.
 
@@ -138,15 +141,13 @@ Equipos de 4-5 integrantes. Elección de negocio (real o simulado) en la semana 
 
 Guía de configuración de cuentas: [`recursos/herramientas-setup.md`](recursos/herramientas-setup.md)
 
-### Crea tu copia del repositorio
+### Cómo obtienes tu copia del repositorio
 
-No trabajes directamente sobre este repositorio — es la plantilla compartida. Crea tu propia copia:
-
-1. Entra a `https://github.com/avila-fiec-up/INF320-Automatizacion-Procesos-Negocios-2026-2`.
-2. Botón verde **"Use this template" → "Create a new repository"**.
-3. Owner: tu propia cuenta · Visibility: **Private**.
-4. En **Settings → Collaborators** de tu copia nueva, agrega al docente (`profangelavila671-spec`).
-5. Clona tu copia (no la plantilla del docente) y trabaja como siempre: `git clone`, `git add`, `git commit`, `git push`.
+Este repositorio es la **plantilla del docente** — es privada, así que no puedes verla ni copiarla tú
+mismo. En la semana 1, después de que respondas con tu usuario de GitHub en Google Classroom, el
+docente crea **tu propia copia privada** y te agrega como colaborador. GitHub te manda un correo de
+invitación automáticamente — acéptala, clona tu copia (nunca la plantilla del docente) y trabaja como
+siempre: `git clone`, `git add`, `git commit`, `git push`.
 
 **Alternativa opcional/avanzada:** si prefieres un n8n local sin límite de ejecuciones en vez del plan cloud gratuito, el repo incluye un stack Docker listo en [`docker/`](docker/) (n8n + PostgreSQL). No es obligatorio — ver [`docker/README.md`](docker/README.md).
 

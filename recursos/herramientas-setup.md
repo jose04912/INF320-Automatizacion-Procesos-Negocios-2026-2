@@ -10,7 +10,7 @@
 
 - Descarga Git desde git-scm.com
 - Crea cuenta en github.com (usa un nombre profesional)
-- Entra a `https://github.com/avila-fiec-up/INF320-Automatizacion-Procesos-Negocios-2026-2` y usa el botón verde **"Use this template" → "Create a new repository"** para crear tu propia copia privada. Luego, en **Settings → Collaborators**, agrega al docente (`profangelavila671-spec`).
+- Responde la pregunta de Google Classroom de la semana 1 con tu **usuario de GitHub**. El docente te creará tu propia copia privada del repositorio y te agregará como colaborador — recibirás un correo de invitación de GitHub. Acéptala.
 
 ```bash
 git config --global user.name "Tu Nombre"
